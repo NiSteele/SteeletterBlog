@@ -79,17 +79,15 @@
       and gadgets, you may have heard a phrase like Tik Tok knows me too well”
       our digital footprint is packed with juicy information that computer
       algorithms use to profile our personality. This information is often used
-      to tailor services and fine tune recommendation engines to serve us bullseye
-      hit content. 
-
-      Example:
-      Someone who is particularly agreeable can be identified 64.5% of the time
-      through their behaviours on social media, tell-tale behaviours include
-      higher expression of positive emotions in their posts posting and limited
-      to no use of profanity in their posts (Schwartz et al., 2013). Even if you
-      don’t post much, people high in conscientiousness on average appear to be
-      more cautious in managing their social media profiles, post fewer pictures
-      and express less likes, (Amichai-Hamburger & Vinitzky, 2010).
+      to tailor services and fine tune recommendation engines to serve us
+      bullseye hit content. Example: Someone who is particularly agreeable can
+      be identified 64.5% of the time through their behaviours on social media,
+      tell-tale behaviours include higher expression of positive emotions in
+      their posts posting and limited to no use of profanity in their posts
+      (Schwartz et al., 2013). Even if you don’t post much, people high in
+      conscientiousness on average appear to be more cautious in managing their
+      social media profiles, post fewer pictures and express less likes,
+      (Amichai-Hamburger & Vinitzky, 2010).
     </p>
 
     <h2>Personality Traits</h2>
@@ -196,8 +194,100 @@
         final destination of some observable behaviour. it is more common for
         people to use the mid level traits in general conversation, that is
         because if someone is described to be neurotic, the next question would
-        probably be how so? A mid-level trait would much better granualte more
-        specific ways a person can be neurotic.
+        probably be how so? A mid-level trait would probably be used to privide 
+        a more specific definintion associated with more specific observable behaviours
+        that could be put on display.<section class="trait-hierarchy">
+  <h2>Personality trait hierarchy</h2>
+
+  <div class="trait-row trait-row--header">
+    <div class="trait-col trait-col--high">High level trait</div>
+    <div class="trait-col trait-col--mid">Mid-level trait</div>
+    <div class="trait-col trait-col--obs">Observable behaviour</div>
+  </div>
+
+  <!-- Extraversion -->
+  <div class="trait-row">
+    <div class="trait-col trait-col--high">
+      <span class="trait-label">Extraversion</span>
+    </div>
+    <div class="trait-col trait-col--mid">
+      Sociable, enthusiastic, energetic, gregariousness
+    </div>
+    <div class="trait-col trait-col--obs">
+      Someone who is constantly bouncing off the walls.
+    </div>
+  </div>
+
+  <!-- Conscientiousness -->
+  <div class="trait-row">
+    <div class="trait-col trait-col--high">
+      <span class="trait-label">Conscientiousness</span>
+    </div>
+    <div class="trait-col trait-col--mid">
+      Disciplined, organised, reliable
+    </div>
+    <div class="trait-col trait-col--obs">
+      Someone who achieves work related success.
+    </div>
+  </div>
+
+  <!-- Agreeableness -->
+  <div class="trait-row">
+    <div class="trait-col trait-col--high">
+      <span class="trait-label">Agreeableness</span>
+    </div>
+    <div class="trait-col trait-col--mid">
+      Warm, modest, kind.
+    </div>
+    <div class="trait-col trait-col--obs">
+      A cooperative team player.
+    </div>
+  </div>
+
+  <!-- Neuroticism -->
+  <div class="trait-row">
+    <div class="trait-col trait-col--high">
+      <span class="trait-label">Neuroticism</span>
+    </div>
+    <div class="trait-col trait-col--mid">
+      Nervous, tense, moody, highly strung.
+    </div>
+    <div class="trait-col trait-col--obs">
+      A nervous nelly.
+    </div>
+  </div>
+
+  <!-- Openness to experience – version 1 -->
+  <div class="trait-row">
+    <div class="trait-col trait-col--high">
+      <span class="trait-label">Openness to experience</span>
+    </div>
+    <div class="trait-col trait-col--mid">
+      Imaginative, original, curious
+    </div>
+    <div class="trait-col trait-col--obs">
+      Always up for something new to do.
+    </div>
+  </div>
+
+  <!-- Openness to experience – version 2 -->
+  <div class="trait-row trait-row--sub">
+    <div class="trait-col trait-col--high">
+      <!-- intentionally left blank to visually nest under Openness -->
+    </div>
+    <div class="trait-col trait-col--mid">
+      Original, curious, insightful, adventurous.
+    </div>
+    <div class="trait-col trait-col--obs">
+      Always looking for something new to do.
+    </div>
+  </div>
+</section>
+
+
+ 
+
+        
       </p>
 
       <section class="big-five-traits">
@@ -485,5 +575,96 @@
   .steeletter-table em {
     font-style: italic;
     color: #444;
+  }
+   .trait-hierarchy {
+    border-top: 1px solid #ccc;
+    margin: 2rem 0;
+    font-family: "Georgia", "Times New Roman", serif;
+  }
+
+  .trait-hierarchy h2 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.4rem;
+  }
+
+  .trait-row {
+    display: grid;
+    grid-template-columns: 1.2fr 1.6fr 1.8fr;
+    gap: 1rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .trait-row--header {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-weight: 600;
+    border-bottom: 2px solid #000;
+  }
+
+  .trait-row--sub {
+    background: #fafafa;
+  }
+
+  .trait-col--high {
+    font-weight: 600;
+  }
+
+  .trait-label {
+    display: inline-block;
+    padding: 0.1rem 0.25rem;
+    border: 1px solid #000;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .trait-col--mid {
+    font-style: italic;
+  }
+
+  .trait-col--obs {
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 700px) {
+    .trait-row {
+      grid-template-columns: 1fr;
+    }
+
+    .trait-row--header {
+      display: none;
+    }
+
+    .trait-col {
+      padding: 0.1rem 0;
+    }
+
+    .trait-col--high::before {
+      content: "High level trait: ";
+      font-weight: 600;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+
+    .trait-col--mid::before {
+      content: "Mid-level trait: ";
+      display: block;
+      font-weight: 600;
+      font-style: normal;
+      margin-top: 0.3rem;
+    }
+
+    .trait-col--obs::before {
+      content: "Observable behaviour: ";
+      display: block;
+      font-weight: 600;
+      margin-top: 0.3rem;
+    }
   }
 </style>
