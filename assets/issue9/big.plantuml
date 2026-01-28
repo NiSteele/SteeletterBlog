@@ -1,0 +1,14 @@
+@startuml
+top to bottom direction
+
+rectangle "High-level: 🔥 Extraversion\nMid-level: Sociable, enthusiastic, energetic\nBehaviour: Bounces off the walls" as E
+
+rectangle "High-level: 🔥 Conscientiousness\nMid-level: Disciplined, organised, reliable\nBehaviour: Achieves work success" as C
+
+rectangle "High-level: 🔥 Agreeableness\nMid-level: Warm, modest, kind\nBehaviour: Helps neighbour clean fish tank" as A
+
+rectangle "High-level: 🔥 Neuroticism\nMid-level: Nervous, tense, moody\nBehaviour: A Tense Timbo" as N
+
+rectangle "High-level: 🔥 Openness to Experience\nMid-level: Imaginative, original, curious\nBehaviour: Always up for something new" as O
+
+@enduml
