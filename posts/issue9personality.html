@@ -31,7 +31,8 @@
       />
     </header>
 
-    <article>
+    <div class="article-content">
+
       <h2>
         HAPPY NEW YEAR <span aria-label="party popper" role="img">🎉</span>
       </h2>
@@ -48,9 +49,9 @@
       <div style="font-size: 11px">
         <a href="/" title="make a gif"></a>
       </div>
-    </article>
 
-    <article>
+
+
       <h2>Announcements <span aria-label="megaphone" role="img">📣</span></h2>
       <p>
         Congratulations to Joe Widdrington, more formally known as Widzy for
@@ -61,7 +62,7 @@
         answer sections. FANTASTIC WORK WIDZ!
       </p>
       <img src="../assets/issue9/joe.jpg" class="img" alt="joe" />
-    </article>
+
     <div style="margin-top: 1rem"></div>
     <p></p>
     <div style="margin-top: 2rem"></div>
@@ -153,11 +154,10 @@
       >
     </p>
 
-    <article></article>
+
     <div style="margin-top: 1rem"></div>
 
     <h2>Hypothetical example and common mishaps</h2>
-    <article>
       Franklin has just started playing tennis; his new peers describe him as
       sociable because his mouth does a lot of flapping. Frankfurt also
       frequents the church for gospel studies and the countryside to attend
@@ -485,11 +485,11 @@
       <br />
 
       <img src="../assets/issue9/cnsteele.png" alt="lewis" class="img" />
-    </article>
+
     <section class="steele-inventory">
       <h2>STEELE INVENTORY TEST</h2>
 
-      <article class="question">
+
         <h3>1. Do you have a personality type?</h3>
         <ul>
           <li>a) No</li>
@@ -497,9 +497,9 @@
           <li>c) No</li>
           <li>d) No</li>
         </ul>
-      </article>
 
-      <article class="question">
+
+
         <h3>
           2. Which of the following meets the criteria of a personality trait?
         </h3>
@@ -512,9 +512,9 @@
           <li>C) A temporary mood or emotional state</li>
           <li>D) A behaviour observed once and never again</li>
         </ul>
-      </article>
 
-      <article class="question">
+
+
         <h3>4. What method was used to arrive at the Big Five?</h3>
         <ul>
           <li>
@@ -529,7 +529,7 @@
             D) Identified through consistent factor structures across languages
           </li>
         </ul>
-      </article>
+ 
 
       <h2>References</h2>
 
@@ -607,6 +607,7 @@
         </li>
       </ul>
     </section>
+    </article>
 
     <div style="margin-top: 1rem"></div>
 
@@ -693,9 +694,12 @@
   }
 
   /* Paragraph spacing */
-  .article-content p {
-    margin-bottom: 1.2em;
+  .article-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px; /* adds side margins */
   }
+
 
   /* Reference list formatting (APA style) */
   .references li {
